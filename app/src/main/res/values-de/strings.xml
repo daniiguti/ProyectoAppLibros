@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Elementos del activity_login_register -->
+    <string name="etInicioSesion">IEINLOGGEN</string>
+    <string name="etUsuarioLog">Benutzer</string>
+    <string name="etContraLog">Passwort</string>
+    <string name="cbRecordarDatos">Daten erinnern</string>
+    <string name="btRegistrarse">CHECK-IN</string>
+    <string name="InfoToastLog1">Korrekter benutzer</string>
+    <string name="InfoToastLog2">Nicht vorhandener Benutzername oder falsches Passwort</string>
+    <string name="InfoToastLog3">existierender Benutzer</string>
+    <string name="InfoToastLog4">Benutzer erfolgreich erstellt, anmelden</string>
+    <string name="InfoToastLog5">Lassen Sie keine leeren Felder</string>
+
+
+    <!-- Elementos del activity_main -->
+    <string name="main_activity">eFindBooks</string>
+    <string name="etInfoMain">Empfehlungen</string>
+    <string name="etInfoMain2">Suchergebnis</string>
+    <string name="InfoToastMainError">Problem beim Laden der Daten, versuchen Sie es später erneut</string>
+    <string name="InfoToastMainError2">Ausnahmelektüre</string>
+    <!-- Elementos de los alert dialog -->
+    <string name="adAnadirTi">der Überschrift</string>
+    <string name="adAnadirAutor">Autor</string>
+    <string name="adAnadirAceptar">AKZEPTIEREN</string>
+    <string name="adAnadirCancelar">ABBRECHEN</string>
+    <string name="adEliminar1">Entfernen</string>
+    <string name="adEliminar2">Sind Sie sicher, dass Sie löschen möchten?</string>
+    <string name="adAnadirTitulo">Buch hinzufügen</string>
+    <string name="adModificarTitulo">Buch ändern</string>
+    <string name="adAnadirInfo">Lassen Sie keine leeren Felder</string>
+    <string name="adAnadirInfo2">Buch richtig eingelegt</string>
+    <string name="adEliminarSi">Ja</string>
+    <string name="adEliminarNo">Nein</string>
+    <string name="adEliminarInfo">Buch erfolgreich gelöscht</string>
+    <string name="adEliminarInfo2">Buch nicht entfernt</string>
+    <!-- Elementos de los menus dentro del activity_main -->
+    <!-- Elementos del menu de accion -->
+    <string name="btAnadirMenuAccion">Hinzufügen</string>
+    <string name="btModificarMenuAccion">Ändern</string>
+    <string name="btEliminarMenuAccion">Entfernen</string>
+    <!-- Elementos del menu simple -->
+    <string name="btBuscarMenuSimple">Suche nach Büchern</string>
+    <string name="btPreferenciasMenuSimple">Vorlieben</string>
+    <string name="btCerrarSesionMenuSimple">Ausloggen</string>
+
+
+    <!-- Elementos del buscar activity -->
+    <string name="buscar_libros_activity">Suche nach Büchern</string>
+    <string name="etTituloBus">Buchtitel</string>
+    <string name="etAutorBus">Autor</string>
+    <string name="etOrdenarPor">Sortieren nach</string>
+    <string name="rbNuevos">Neu</string>
+    <string name="rbRelevancia">Relevanz</string>
+    <string name="etBusqueda">Suche</string>
+    <string name="rbAvanzada">fortschrittlich</string>
+    <string name="rbRapida">Schnell</string>
+    <string name="btAplicarBus">ANWENDEN</string>
+    <string name="InfoToastBus">Geben Sie mindestens ein Feld in Autor oder Titel ein</string>
+
+
+    <!-- Elementos del detalle activity -->
+    <string name="detalle_activity">Einzelheiten</string>
+    <string name="etTituloDet">Buchtitel:</string>
+    <string name="etAutorDet">Autor:</string>
+    <string name="etDescripcionDet">Bezeichnung:</string>
+    <string name="etFechaDet">Veröffentlichungsdatum:</string>
+    <string name="eteBookDet">eBook:</string>
+    <string name="etNumPagDet">Seitenzahl:</string>
+    <string name="InfoToastDet">Die selbst hinzugefügten Bücher können nicht konsultiert werden, da sie nicht in der Datenbank enthalten sind</string>
+    <string name="InfoToastDetError">Problem beim Laden der Daten, versuchen Sie es später erneut</string>
+    <string name="InfoToastDetError2">Ausnahmelektüre, versuchen Sie es mit einem anderen Buch</string>
+    <string name="InfoToastDetError3">Dieses Buch hat keinen eigenen Link zu Google</string>
+
+
+    <!-- Elementos del preferences activity -->
+    <string name="preferences_activity">Vorlieben</string>
+    <string name="etElegirTema">Wähle das Thema</string>
+    <string name="etCambiarIdioma">Um die Sprache zu ändern, ändern Sie die Gerätesprache</string>
+</resources>

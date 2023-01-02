@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clBuscarLibrosActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btAplicarBus"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:text="@string/btAplicarBus"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textColorHighlight="?android:attr/textColorSecondary"
+        android:textColorLink="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:id="@+id/etTituloBus"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
+        android:text="@string/etTituloBus"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/etAutorBus"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:text="@string/etAutorBus"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTituloBus"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/txtTituloBus"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etTituloBus"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etTituloBus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <EditText
+        android:id="@+id/txtAutorBus"
+        android:layout_width="209dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/etAutorBus"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/etAutorBus"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloBus"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <RadioGroup
+        android:id="@+id/rgOrdenarPor"
+        android:layout_width="108dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363">
+
+        <RadioButton
+            android:id="@+id/rbNuevos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbNuevos" />
+
+        <RadioButton
+            android:id="@+id/rbRelevancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbRelevancia" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/etOrdenarPorBus"
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:text="@string/etOrdenarPor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <TextView
+        android:id="@+id/etBusquedaBus"
+        android:layout_width="112dp"
+        android:layout_height="35dp"
+        android:text="@string/etBusqueda"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <RadioGroup
+        android:id="@+id/rgBusqueda"
+        android:layout_width="110dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <RadioButton
+            android:id="@+id/rbAvanzada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbAvanzada" />
+
+        <RadioButton
+            android:id="@+id/rbRapida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbRapida" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

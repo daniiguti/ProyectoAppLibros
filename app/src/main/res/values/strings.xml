@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Elementos del activity_login_register -->
+    <string name="etInicioSesion">INICIAR SESIÓN</string>
+    <string name="etUsuarioLog">Usuario</string>
+    <string name="etContraLog">Contraseña</string>
+    <string name="cbRecordarDatos">Recordar datos</string>
+    <string name="btRegistrarse">REGISTRARSE</string>
+    <string name="InfoToastLog1">Usuario Correcto</string>
+    <string name="InfoToastLog2">Usuario inexistente o contraseña incorrecta</string>
+    <string name="InfoToastLog3">Usuario ya existente</string>
+    <string name="InfoToastLog4">Usuario creado correctamente, inicie sesión</string>
+    <string name="InfoToastLog5">No deje campos vacíos</string>
+
+
+    <!-- Elementos del activity_main -->
+    <string name="main_activity">eFindBooks</string>
+    <string name="etInfoMain">Recomendaciones</string>
+    <string name="etInfoMain2">Resultado Busqueda</string>
+    <string name="InfoToastMainError">Problema al cargar los datos, intentelo después</string>
+    <string name="InfoToastMainError2">Excepción al leer</string>
+    <!-- Elementos de los alert dialog -->
+    <string name="adAnadirTi">Titulo</string>
+    <string name="adAnadirAutor">Autor</string>
+    <string name="adAnadirAceptar">ACEPTAR</string>
+    <string name="adAnadirCancelar">CANCELAR</string>
+    <string name="adEliminar1">Eliminar</string>
+    <string name="adEliminar2">¿Seguro que desea eliminar?</string>
+    <string name="adAnadirTitulo">Añadir Libro</string>
+    <string name="adModificarTitulo">Modificar Libro</string>
+    <string name="adAnadirInfo">No deje campos vacíos</string>
+    <string name="adAnadirInfo2">Libro introducido correctamente</string>
+    <string name="adEliminarSi">Si</string>
+    <string name="adEliminarNo">No</string>
+    <string name="adEliminarInfo">Libro eliminado correctamente</string>
+    <string name="adEliminarInfo2">Libro no eliminado</string>
+    <!-- Elementos de los menus dentro del activity_main -->
+    <!-- Elementos del menu de accion -->
+    <string name="btAnadirMenuAccion">Añadir</string>
+    <string name="btModificarMenuAccion">Modificar</string>
+    <string name="btEliminarMenuAccion">Eliminar</string>
+    <!-- Elementos del menu simple -->
+    <string name="btBuscarMenuSimple">Buscar Libros</string>
+    <string name="btPreferenciasMenuSimple">Preferencias</string>
+    <string name="btCerrarSesionMenuSimple">Cerrar Sesión</string>
+
+
+    <!-- Elementos del buscar activity -->
+    <string name="buscar_libros_activity">Buscar Libros</string>
+    <string name="etTituloBus">Titulo</string>
+    <string name="etAutorBus">Autor</string>
+    <string name="etOrdenarPor">Ordenar Por</string>
+    <string name="rbNuevos">Nuevos</string>
+    <string name="rbRelevancia">Relevancia</string>
+    <string name="etBusqueda">Busqueda</string>
+    <string name="rbAvanzada">Avanzada</string>
+    <string name="rbRapida">Rapida</string>
+    <string name="btAplicarBus">APLICAR</string>
+    <string name="InfoToastBus">Introduza al menos un campo en autor o título</string>
+
+
+    <!-- Elementos del detalle activity -->
+    <string name="detalle_activity">Detalles</string>
+    <string name="etTituloDet">Titulo:</string>
+    <string name="etAutorDet">Autor:</string>
+    <string name="etDescripcionDet">Descripción:</string>
+    <string name="etFechaDet">Fecha de publicación:</string>
+    <string name="eteBookDet">eBook:</string>
+    <string name="etNumPagDet">Número de páginas:</string>
+    <string name="InfoToastDet">Los libros añadidos por uno mismo no pueden ser consultados puesto que no estan en la base de datos</string>
+    <string name="InfoToastDetError">Problema al cargar los datos, intentelo después</string>
+    <string name="InfoToastDetError2">Excepción al leer, pruebe con otro libro</string>
+    <string name="InfoToastDetError3">Este libro no tiene enlace propio a google</string>
+
+
+    <!-- Elementos del preferences activity -->
+    <string name="preferences_activity">Preferencias</string>
+    <string name="etElegirTema">Elegir Tema</string>
+    <string name="etCambiarIdioma">Para cambiar el idioma, cambie el idioma del dispositivo</string>
+</resources>

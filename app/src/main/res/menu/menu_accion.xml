@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btAnadir"
+        android:title="@string/btAnadirMenuAccion"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/btModificar"
+        android:title="@string/btModificarMenuAccion"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/btEliminar"
+        android:title="@string/btEliminarMenuAccion"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clAddUpdActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/etTituloAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/adAnadirTi"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitulo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAutor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo2" />
+
+    <TextView
+        android:id="@+id/etAutorAdd"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/adAnadirAutor"
+        app:layout_constraintEnd_toStartOf="@+id/txtAutor2"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTituloAdd" />
+
+    <Button
+        android:id="@+id/btAceptar2"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/adAnadirAceptar"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textColorHighlight="?android:attr/textColorSecondary"
+        android:textColorLink="?android:attr/textColorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor2" />
+
+    <Button
+        android:id="@+id/btCancelar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/adAnadirCancelar"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textColorHighlight="?android:attr/textColorSecondary"
+        android:textColorLink="?android:attr/textColorSecondary"
+        app:layout_constraintEnd_toStartOf="@+id/btAceptar2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

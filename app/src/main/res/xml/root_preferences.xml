@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Diseño">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/temas"
+            android:entryValues="@array/temas"
+            android:key="preferences_tema"
+            android:title="@string/etElegirTema" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Idioma">
+
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/etCambiarIdioma"
+            app:enabled="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

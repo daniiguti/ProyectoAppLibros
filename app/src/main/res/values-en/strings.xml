@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Elementos del activity_login_register -->
+    <string name="etInicioSesion">LOG IN</string>
+    <string name="etUsuarioLog">User</string>
+    <string name="etContraLog">Password</string>
+    <string name="cbRecordarDatos">Remember data</string>
+    <string name="btRegistrarse">SIGN UP</string>
+    <string name="InfoToastLog1">Correct user</string>
+    <string name="InfoToastLog2">Non-existent username or incorrect password</string>
+    <string name="InfoToastLog3">existing user</string>
+    <string name="InfoToastLog4">User created successfully, login</string>
+    <string name="InfoToastLog5">Do not leave empty fields</string>
+
+
+    <!-- Elementos del activity_main -->
+    <string name="main_activity">eFindBooks</string>
+    <string name="etInfoMain">Recommendations</string>
+    <string name="etInfoMain2">Search Result</string>
+    <string name="InfoToastMainError">Problem loading data, try again later</string>
+    <string name="InfoToastMainError2">Exception reading</string>
+    <!-- Elementos de los alert dialog -->
+    <string name="adAnadirTi">Title</string>
+    <string name="adAnadirAutor">Author</string>
+    <string name="adAnadirAceptar">ACCEPT</string>
+    <string name="adAnadirCancelar">CANCEL</string>
+    <string name="adEliminar1">Remove</string>
+    <string name="adEliminar2">Are you sure you want to delete?</string>
+    <string name="adAnadirTitulo">Add boook</string>
+    <string name="adModificarTitulo">Update book</string>
+    <string name="adAnadirInfo">Do not leave empty fields</string>
+    <string name="adAnadirInfo2">Book inserted correctly</string>
+    <string name="adEliminarSi">Yes</string>
+    <string name="adEliminarNo">No</string>
+    <string name="adEliminarInfo">Book deleted successfully</string>
+    <string name="adEliminarInfo2">book not deleted</string>
+    <!-- Elementos de los menus dentro del activity_main -->
+    <!-- Elementos del menu de accion -->
+    <string name="btAnadirMenuAccion">Add</string>
+    <string name="btModificarMenuAccion">Modify</string>
+    <string name="btEliminarMenuAccion">Delete</string>
+    <!-- Elementos del menu simple -->
+    <string name="btBuscarMenuSimple">Search for books</string>
+    <string name="btPreferenciasMenuSimple">Preferences</string>
+    <string name="btCerrarSesionMenuSimple">Log out</string>
+
+
+    <!-- Elementos del activity_buscar_libros -->
+    <string name="buscar_libros_activity">Search for books</string>
+    <string name="etTituloBus">Title</string>
+    <string name="etAutorBus">Author</string>
+    <string name="etOrdenarPor">Sort by</string>
+    <string name="rbNuevos">Newest</string>
+    <string name="rbRelevancia">Relevance</string>
+    <string name="etBusqueda">Search</string>
+    <string name="rbAvanzada">Advanced</string>
+    <string name="rbRapida">Fast</string>
+    <string name="btAplicarBus">APPLY</string>
+    <string name="InfoToastBus">Enter at least one field in author or title</string>
+
+
+    <!-- Elementos del activity_detalle -->
+    <string name="detalle_activity">Details</string>
+    <string name="etTituloDet">Title:</string>
+    <string name="etAutorDet">Author:</string>
+    <string name="etDescripcionDet">Description:</string>
+    <string name="etFechaDet">Publication date:</string>
+    <string name="eteBookDet">eBook:</string>
+    <string name="etNumPagDet">Number of pages:</string>
+    <string name="InfoToastDet">The books added by oneself cannot be consulted since they are not in the database</string>
+    <string name="InfoToastDetError">Problem loading data, try again later</string>
+    <string name="InfoToastDetError2">Exception reading, try another book</string>
+    <string name="InfoToastDetError3">This book does not have its own link to google</string>
+
+
+    <!-- Elementos del preferences activity -->
+    <string name="preferences_activity">Preferences</string>
+    <string name="etElegirTema">Choose theme</string>
+    <string name="etCambiarIdioma">To change the language, change the device language</string>
+</resources>
